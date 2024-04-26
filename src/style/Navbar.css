@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid var(--yellow);
+    background-color: rgba(136, 174, 227, 0.2);
+}
+
+.navbar button {
+    font-size: 1.5rem;
+    border: transparent solid;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: ease 0.3s;
+    background-color: transparent;
+}
+
+.navbar button:hover {
+    border-bottom: solid var(--blue);
+    color: var(--blue);
+}

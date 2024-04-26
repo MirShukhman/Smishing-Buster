@@ -1,0 +1,11 @@
+:root {
+    --blue: rgb(22, 50, 88);
+    --light-blue: rgb(136, 174, 227);
+    --yellow: rgb(238, 217, 32);
+    --main-font: ;
+    --second-font: ;
+}
+
+body {
+    margin: 0;
+}
