@@ -1,0 +1,79 @@
+.why,
+.how,
+.demo {
+    padding-bottom: 3rem;
+}
+
+.content {
+    background: transparent;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+.content h2 {
+    font-family: var(--logo-font);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: var(--blue);
+    text-shadow: 1px 1px 2px var(--yellow);
+}
+
+.content-right h2 {
+    text-align: left;
+}
+
+.content p {
+    font-family: var(--main-font);
+    text-wrap: wrap;
+}
+
+#problem-image {
+    height: 200px;
+    width: 800px;
+    background-image: url(./images/problem.png);
+    background-size: cover;
+}
+
+#solution-image {
+    height: 200px;
+    width: 600px;
+    background-image: url(./images/solution.png);
+    background-size: cover;
+    transform: rotate(10deg);
+    margin-right: 4rem;
+}
+
+#step-one-image {
+    height: 165px;
+    width: 630px;
+    background-image: url(./images/step-one-image.png);
+    background-size: cover;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+#step-two-image {
+    height: 180px;
+    width: 1200px;
+    background-image: url(./images/step-two-image.png);
+    background-size: cover;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+#step-three-image {
+    margin-top: 2rem;
+    height: 180px;
+    width: 1200px;
+    background-image: url(./images/step-three-image.png);
+    background-size: cover;
+}
+
+#demo-content {
+    width: 90%;
+}

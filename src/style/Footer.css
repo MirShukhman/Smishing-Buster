@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--blue);
+}
+
+.footer p {
+    color: white;
+    font-family: "Barlow", sans-serif;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}

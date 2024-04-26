@@ -20,11 +20,14 @@
 
 .header-text p {
     margin: 0;
+    font-family: var(--main-font);
 }
 
 #title {
-    font-size: 3rem;
+    font-size: 3.2rem;
+    font-family: var(--logo-font);
+    font-weight: 400;
     color: var(--yellow);
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     margin-top: 1rem;
 }
